@@ -1,0 +1,338 @@
+body {
+  font-family: 'Titillium Web' , sans-serif; /* устанавливает семейство шрифта, которое будет использоваться для оформления текста содержимого */
+}
+ul,li {
+     /* для скрытия маркеров списка */  
+}
+.sdvigimg1{
+    margin-left: 230px;  
+    margin-top: 57px;    
+    margin-right: 480px; 
+}
+#one{
+    margin-left: 300px; 
+}
+.header{
+    width: auto;  /* ширина поля */  
+    height: 600px;  /* высота поля  */  
+    background-color: #87509c; /* цвет фона */  
+}
+.img2{
+    position: absolute; /* элемент абсолютно позиционирован, при этом другие элементы отображаются, как будто элемента нет  */
+    margin-top: 73px; 
+    margin-left: 280px;  
+}
+.a{
+    position: relative; /* положение элемента устанавливается относительно его исходного места */
+    text-decoration: none; /* отменяет подчеркивания у ссылок, которое задано по умолчанию. */
+    font-size: 16px;  
+    margin-right: 40px;   
+    color: #ffffff; 
+}
+.text1{
+    font-size: 42px;  
+    line-height: 49px; /* устанавливвает междустрочный интревал*/
+    color: #f7f3ea; 
+    font-weight: 700; /* насыщенность шрифта */ 
+    font-family: "Titillium Web" Bold;  
+    text-align: center; 
+    margin-left: 470px;  
+    margin-right: 200px; 
+    margin-top: 130px;  
+    position: absolute;  
+}
+.text2{
+    position: absolute;  
+    margin-top: 340px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-right: 40px; 
+    color: #ffffff; 
+    margin-left: 663px; 
+}
+.text11{
+    position: absolute; 
+    margin-top: 340px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-right: 40px; 
+    color: #ffffff; 
+    margin-left: 647px; 
+}
+.text12{
+    position: absolute; 
+    margin-top: 340px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    margin-right: 40px; 
+    color: #ffffff; 
+    margin-left: 670px; 
+}
+.container_button{
+    margin-left: 180px;  
+    margin-right: 100px; 
+    position: relative; /* положение элемента устанавливается относительно его исходного места */
+}
+.container_button_OP {
+    margin-top: -200px; 
+    margin-left: 190px; 
+    margin-right: 100px; 
+}
+.container_button_CU{
+    margin-left: 190px; 
+}
+.img3{
+    position: absolute;  /* элемент абсолютно позиционирован, при этом другие элементы отображаются, как будто элемента нет  */
+    margin-top: 320px; 
+    margin-left: 585px; 
+}
+.img4{
+    position: absolute;  
+    margin-top: 386px; 
+    margin-left: 585px; 
+}
+/* 3 уровень */
+.footer{
+    width: auto;  /* ширина поля */  
+    height: 914px; /* высота поля  */  
+    background-color: #3c5499; 
+}
+.zagolovok2{
+    margin-left: 780px;  
+    position:absolute; 
+    font-size: 40px; 
+    letter-spacing: 4px; /* интервал между символами */
+    line-height: 30px; /* устанавливвает междустрочный интревал*/
+    color: #ffffff; 
+    font-weight: 700; /* насыщенность шрифта */ 
+    font-family: "Titillium Web"; 
+    margin-top: 50px; 
+}
+.line2{
+    width: 97px; /* ширина линии*/
+    height: 4px; /* высота линии*/
+    margin-left: 880px; 
+    margin-top: 100px ;  
+}
+.podzagolovok{
+    font-size: 18px; 
+    color: #ffffff; 
+    font-weight: 400; 
+    font-family: "Titillium Web"; 
+    text-align: center; /*  выравнивание по центру*/
+    margin-left: 60px; 
+}
+.input1{
+    display: flex;
+    margin-left: 200px; /* отступ слева */
+}
+.inpu1{
+    width: 414px;
+    height: 56px;
+    font-size: 18px;
+    background-color: #273a71;
+    outline: 2px solid #273a71; /* Чёрная рамка */
+    border: 3px solid #273a71; /* Белая рамка */
+    border-radius: 4px; /* Радиус скругления */
+    margin-top: 85px;
+    margin-left: 300px;
+    color: #ffffff;
+}
+.inpu2{
+  width: 414px;
+  height: 56px;
+  font-size: 18px;
+  background-color: #273a71;
+  outline: 2px solid #273a71; /* Чёрная рамка */
+  border: 3px solid #273a71; /* Белая рамка */
+  border-radius: 4px; /* Радиус скругления */
+  margin-top: 85px;
+  margin-left: 300px;
+  color: #ffffff;
+}
+#inp2{
+    width: 414px;
+    height: 56px;
+    font-size: 18px;
+    background-color: #273a71;
+    outline: 2px solid #273a71; /* Чёрная рамка */
+    border: 3px solid #273a71; /* Белая рамка */
+    border-radius: 4px; /* Радиус скругления */
+    margin-top: 85px;
+    margin-left: 30px;
+}
+.otsuv{
+    width: 865px;
+    height: 200px;
+    border-radius: 4px;
+    background-color: #273a71;;
+    outline: 2px solid #273a71; /* Чёрная рамка */
+    border: 3px solid #273a71; /* Белая рамка */
+    font-size: 20px;
+    color: #ffffff;
+}
+.ots1{
+    margin-top: 26px;
+    margin-left: 500px;
+    position: absolute;
+}
+.required:after {
+    position: absolute;
+    content:" *";
+    color: red;
+  }
+.required{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    margin-left:-400px;
+    margin-top:100px;
+}
+.input{
+    position: absolute;
+}
+.required2{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    margin-left:-400px;
+    margin-top:100px;
+}
+.required2:after {
+    position: absolute;
+    content:" *";
+    color: red;
+  }
+.required3{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    margin-left:-40px;
+}
+.required3:after {
+    position: absolute;
+    content:" *";
+    color: red;
+  }
+  input:focus + label {
+    display: none;
+  }
+  textarea:focus + label{
+    display: none;
+  }
+  #ots2{
+      left: 60px;
+      top: 20px;
+  }
+  .panel{
+    width: 1860px;
+    height: 112px;
+    background-color: #344b8e;
+    top:520px;
+    right: 10px;
+    position: relative;
+  }
+  .nizpanel{
+    display: flex;
+    position: absolute;
+    margin-left:467px;
+    top: 20px;
+  }
+  .textpanel{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px; /* устанавливвает междустрочный интревал*/
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Titillium Web";
+    text-decoration: none; 
+    margin-right: 60px;
+  }
+#txtp2{
+    color: #30bae7;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .bg5 {
+    background-color: #ffdd99;
+    height: 1423px;
+  }
+  .s2_head {
+    max-width: 540px;
+    margin: auto;
+  } 
+  .s2_title {
+    padding-top: 100px;
+    color: #393939;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+  .s2_line {
+    border: none;
+    background-color: #e5c37f;
+    width: 75px;
+    height: 4px;
+    margin-bottom: 16px; /* отступ снизу*/
+    margin-left: 225px;
+  }
+  .s2_head_text {
+    text-align: center;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .s2_menu {
+    margin-top: 55px;
+    text-align: center;
+  }
+  .s2_menu_paragraph {
+    text-decoration: none;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #ebc985;
+    padding: 6px 24px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .s2_menu_paragraphh{
+    
+    background-color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 6px 24px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .s2_body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1164px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .s2_imgs {
+    width: 542px;
+    margin: 20px;
+  }
+  .s2_img {
+    height: 310px;
+    width: 542px;
+  }
+  .s2_under_img_text {
+    text-align: center;
+  }
