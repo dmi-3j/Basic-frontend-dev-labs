@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head><title>LAB2Task1</title>
+        <style>
+            .margin-p1{margin-left :84px;}
+            .margin-p2{margin-left: 75px;}
+            .margin-p3{margin-left: 100px;}
+            .margin-p4{margin-left: 70px;}
+            .margin-p4{margin-left: 110px;}
+            .margin-p5{margin-left: 387px;}
+        </style>
+    </head>
+    <form action="#" class="form">
+         
+            <p><small>ID Number:</small></p>
+            <input type ="text" name="ID" size="33">
+            <p> <small>Login name:</small></p>
+            <input type ="text" name="Login" size="66">
+            <p> <small>Address 1:</small> </p>
+            <input type ="text" name="address1" size="66">
+            <p> <small>Address 2:</small></p>
+            <input type ="text" name="address2" size="66">
+            <p><small>City:</small>
+              <small class = "margin-p1">State: </small> 
+              <small class="margin-p2">ZIP:  </small>
+              <small class="margin-p3">Country:  </small>
+            </p>
+            <input type="text" name="City" size = "10">
+            <input type="text" name="State" size="10">
+            <input type = "text" name ="ZIP" size = "13">
+            <select name="Country">
+                <option value="c1"> United States</option>
+                <option value="c2"> Russian Federation</option>
+                <option value="c3" >Republic Of Belarus</option>
+            </select>
+            <p> <small> Phone: </small>
+                <small class="margin-p4">Email: </small>
+            </p>
+            <input type="text" name="Phone"  size="15">
+            <input type="email" name="Email" size="45">
+            <p>
+                <button type="reset" class="margin-p5">Reset</button>
+                <button type="submit">Sumbit</button> 
+            </p>
+    </form>
+</html>
